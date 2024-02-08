@@ -61,16 +61,7 @@ module.exports = {
         '@typescript-eslint/no-namespace': 'warn',
         '@typescript-eslint/no-non-null-assertion': 'warn',
         '@typescript-eslint/no-shadow': ['warn'],
-        '@typescript-eslint/no-magic-numbers': [
-            'warn',
-            {
-                ignoreNumericLiteralTypes: true,
-                ignoreEnums: true,
-                ignoreReadonlyClassProperties: true,
-                ignoreDefaultValues: true,
-                ignore: [0, 1, -1, 180, 90, 45, 30, 60, 1000, 100, -180, -90, -45,  -30, -60, -1000, -100],
-            },
-        ],
+        '@typescript-eslint/no-magic-numbers': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': ['error'],
         semi: 'off',
