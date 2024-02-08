@@ -13,12 +13,18 @@ export default class LoadScene extends cc.Component {
         });
     }
 
+    gameEvent() {
+        console.log('gameEvent!!');
+    }
+
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
         // this.loadingButtonComponent = cc.find('LoadScene/LoadingButtonComponent/Background/Label');
         this.loadingButtonComponent = this.node.getComponentInChildren(LoadingButtonComponent);
         this.loadingButtonComponent.loadScene = this;
+
+        cc.game.on('gameEvent', this.gameEvent);
 
         this.preloadMainScene();
     }

@@ -11,6 +11,8 @@ export default class LoadingButtonComponent extends cc.Component {
     handleClick() {
         console.log('click', this.loadScene.loadedMainScene);
 
+        cc.game.emit('gameEvent');
+
         if (this.loadScene.loadedMainScene) {
             cc.director.loadScene('MainScene');
 
