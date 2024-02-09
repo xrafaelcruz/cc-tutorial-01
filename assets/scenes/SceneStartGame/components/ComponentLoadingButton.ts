@@ -1,20 +1,20 @@
-import LoadScene from '../LoadScene';
+import SceneStartGame from '../SceneStartGame';
 
 const { ccclass } = cc._decorator;
 
 const fakePromise = new Promise(resolve => setTimeout(resolve, 3000));
 
 @ccclass
-export default class LoadingButtonComponent extends cc.Component {
-    loadScene: LoadScene = null;
+export default class ComponentLoadingButton extends cc.Component {
+    sceneStartGame: SceneStartGame = null;
 
     handleClick() {
-        console.log('click', this.loadScene.loadedMainScene);
+        console.log('click', this.sceneStartGame.loadedMainScene);
 
         cc.game.emit('gameEvent');
 
-        if (this.loadScene.loadedMainScene) {
-            cc.director.loadScene('MainScene');
+        if (this.sceneStartGame.loadedMainScene) {
+            cc.director.loadScene('SceneMain');
 
             this.node.emit('customClick', { teste: 1 });
         }

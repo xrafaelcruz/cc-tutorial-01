@@ -65,7 +65,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "LoadScene",
+    "_name": "SceneStartGame",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -618,7 +618,7 @@
       "__id__": 5
     },
     "_enabled": true,
-    "_id": "a5JvqhD7xEkrl9sp6t6eMi"
+    "_id": "26TxRo0YBD15TQ9IDcQDiL"
   },
   {
     "__type__": "cc.Canvas",
@@ -672,7 +672,7 @@
       "__id__": 2
     },
     "_enabled": true,
-    "_id": "42/j5zOGxDPZKutCw/s5gS"
+    "_id": "b4Q7li+BVCxJ3eBuMxqXPm"
   },
   {
     "__type__": "cc.Node",
@@ -1056,6 +1056,6 @@
       "__id__": 16
     },
     "_enabled": true,
-    "_id": "b8wkaKQAVCUrcGUZEcj8AI"
+    "_id": "18YrzhLRdDOJ5NwYy5KzJg"
   }
 ]
