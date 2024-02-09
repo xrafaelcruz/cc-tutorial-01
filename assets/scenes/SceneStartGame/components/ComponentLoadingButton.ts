@@ -1,11 +1,12 @@
 import SceneStartGame from '../SceneStartGame';
 
-const { ccclass } = cc._decorator;
+const { ccclass, property } = cc._decorator;
 
 const fakePromise = new Promise(resolve => setTimeout(resolve, 3000));
 
 @ccclass
 export default class ComponentLoadingButton extends cc.Component {
+    @property({ type: SceneStartGame })
     sceneStartGame: SceneStartGame = null;
 
     handleClick() {

@@ -81,13 +81,13 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 13
-      },
-      {
         "__id__": 14
       },
       {
         "__id__": 15
+      },
+      {
+        "__id__": 13
       }
     ],
     "_prefab": null,
@@ -618,7 +618,20 @@
       "__id__": 5
     },
     "_enabled": true,
+    "sceneStartGame": {
+      "__id__": 13
+    },
     "_id": "26TxRo0YBD15TQ9IDcQDiL"
+  },
+  {
+    "__type__": "6260brHibNKFoaJy+GqNZIz",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_id": "b4Q7li+BVCxJ3eBuMxqXPm"
   },
   {
     "__type__": "cc.Canvas",
@@ -663,16 +676,6 @@
     "_originalWidth": 0,
     "_originalHeight": 0,
     "_id": "29zXboiXFBKoIV4PQ2liTe"
-  },
-  {
-    "__type__": "6260brHibNKFoaJy+GqNZIz",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 2
-    },
-    "_enabled": true,
-    "_id": "b4Q7li+BVCxJ3eBuMxqXPm"
   },
   {
     "__type__": "cc.Node",
